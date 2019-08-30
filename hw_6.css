@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Open Sans":
+    src: url("fonts/subset-OpenSans-Bold.eot");
+    src: url("fonts/subset-OpenSans-Bold.eot?#iefix") format("embedded-opentype"),
+        url("fonts/subset-OpenSans-Bold.woff2") format("woff2"),
+        url("fonts/subset-OpenSans-Bold.woff") format("woff"),
+        url("fonts/subset-OpenSans-Bold.ttf") format("truetype"),
+        url("fonts/subset-OpenSans-Bold.svg#OpenSans-Bold") format("svg");
+    font-weight: bold;
+    font-style: regular;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #ffffff;
+}
+.title1 {
+    background-image: url("images/Gradient_Map_1.png");
+    background-size: cover;
+    height: 307px;
+}
+.title1 span {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58.99px;
+    margin-left: 92px;
+}
+.title2 {
+    font-size: 30px;
+    line-height: 58.99px;
+    font-weight: 400;
+    color: #333333;
+}
